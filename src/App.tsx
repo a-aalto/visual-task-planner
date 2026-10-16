@@ -1,9 +1,6 @@
-
-import LoginForm from './components/LoginForm.tsx'
+import LoginForm from "./components/LoginForm.tsx"
 
 function App() {
-  
-
   return (
     <>
       <LoginForm />
