@@ -1,5 +1,6 @@
-import "/src/style.css"
+import Button from "./Button.tsx"
 
 export default function LoginForm() {
-  return <button className="flex">Authenticate with Microsoft</button>
+  // Here user would click the button to call the Microsoft Graph API
+  return <Button>Authenticate with Microsoft</Button>
 }

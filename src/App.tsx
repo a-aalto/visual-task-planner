@@ -1,9 +1,12 @@
 import LoginForm from "./components/LoginForm.tsx"
+import "./index.css"
 
 function App() {
   return (
     <>
-      <LoginForm />
+      <div className="flex min-h-screen items-center justify-center">
+        <LoginForm />
+      </div>
     </>
   )
 }
